@@ -45,7 +45,7 @@ class ApplicationController < Sinatra::Base
   end
 
   delete '/articles/:id/delete' do
-
+    binding.pry
   end
 
 end
