@@ -31,7 +31,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/articles/:id/edit' do
-  binding.pry
+
     erb :edit
   end
 
